@@ -53,4 +53,4 @@ todo: fix the detection for this
 ### while & end
 `while X` - if the top value of stack X and `mem` are equal, jump to the matching `end` command
 
-`end` - if the top value of stack X and `mem` aren't equal, jump back to the matching `while` command
+`end` - if the stack specified in the matching `while`'s top value and `mem` aren't equal, jump back to the matching `while` command
