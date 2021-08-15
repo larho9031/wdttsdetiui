@@ -53,4 +53,4 @@ __note: when putting `make A` into the program, it shows a syntax error on the w
 ### while & end
 `while X` - if the top value of stack X and `mem` are equal, jump to the matching `end` command
 
-`end` - if the stack specified in the matching `while`'s top value and `mem` aren't equal, jump back to the matching `while` command
+`end` - if the stack specified in the matching `while`'s top value and the value of `mem` aren't equal, jump back to the matching `while` command
