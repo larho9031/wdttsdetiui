@@ -48,7 +48,7 @@ __note: when putting `make A` into the program, it shows a syntax error on the w
 `add X` adds the top value of stack X with `mem` and stores the result back into `mem`
 
 ### input
-`input` gets one byte of input from the user
+`input` gets one byte of input from the user and overwrites `mem` with it
 
 ### while & end
 `while X` - if the top value of stack X and `mem` are equal, jump to the matching `end` command
