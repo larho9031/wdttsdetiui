@@ -24,7 +24,7 @@ WDTTSDSETIUI's data structure consists of infinite stacks and a register called 
 `make X` makes a new stack with the name X
 the name must be a number
 
-todo: fix the detection for this
+__note: when putting `make A` into the program, it shows a syntax error on the wdttsdetiui program itself and not the interpreter__
 
 ### push
 `push A X` pushes a value A onto stack X
