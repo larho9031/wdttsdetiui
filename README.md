@@ -54,3 +54,11 @@ __note: when putting `make A` into the program, it shows a syntax error on the w
 `while X` - if the top value of stack X and `mem` are equal, jump to the matching `end` command
 
 `end` - if the stack specified in the matching `while`'s top value and the value of `mem` aren't equal, jump back to the matching `while` command
+
+## tips and tricks
+1. You can load `mem` with whatever you want with the code below, assuming you have a stack already made:
+```
+push [value] 1
+pop 1
+```
+2. You can subtract by using the `add` command with -1.
